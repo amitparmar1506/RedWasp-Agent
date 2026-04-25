@@ -6,3 +6,8 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+lead_agent_product/
+marketing/lead_enrichment_agent.py
+marketing/lead_enrichment_agent_README.md
+marketing/texas_top_100_restaurants_contacts_seed.csv
+marketing/texas_top_100_restaurants_enriched.csv
