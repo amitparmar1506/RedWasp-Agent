@@ -1,0 +1,101 @@
+rank,restaurant_name,city,state,phone_number,website,email_address,source,source_url,verification_status
+1,Tony's Italian Delicatessen,Montgomery,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+2,Gino's Deli Stop N Buy,San Antonio,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+3,Kurry Takos,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+4,Tommy Tamale Market & Cafe,Grapevine,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+5,Frank,Dallas,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+6,It's a Punjabi Affair,Amarillo,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+7,Hatsuyuki Handroll Bar,Fort Worth,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+8,Nancy's Sky Garden,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+9,Las Tortas Perronas,Houston,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+10,DB's Rustic Iron BBQ,Terlingua,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+11,Boteco,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+12,Jewboy Burgers,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+13,Granny's Tacos,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+14,Hugs Cafe,McKinney,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+15,Nelson's BBQ,San Antonio,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+16,Fu Manchung,Spring,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+17,Aladdin Cafe,Crowley,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+18,Kat's Barbecue,Santa Fe,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+19,Munchiez,Carrollton,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+20,Vietwich,Sugar Land,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+21,Abo Youssef,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+22,Casa Mia Latin Cuisine,Lewisville,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+23,Tranky's Tacos,Garland,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+24,Ceviche Ceviche,South Padre Island,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+25,Yia Yia's House of Gyros Mesquite,Mesquite,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+26,Thyme For Lunch,San Antonio,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+27,Taste Community Restaurant,Fort Worth,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+28,Boca 31,Denton,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+29,T-Loc's Sonora Hot Dogs,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+30,Le' Pam's House of Creole,Houston,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+31,Ceviche7,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+32,Fuego Latino Gastropub,Round Rock,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+33,Van's Banh Mi,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+34,Leon Valley Cafe,San Antonio,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+35,The Pita Shop,San Marcos,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+36,Diced Poke,Houston,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+37,El Taquito,El Paso,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+38,Empa Mundo,Irving,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+39,Pappa Gyros,Katy,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+40,Mama Frances Soul Kitchen,La Marque,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+41,Slider Provider,Helotes,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+42,Butcher Block Food & Drinks,Dallas,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+43,Moi Vietnamese Grill,Pflugerville,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+44,Bowl Mami,Carrollton,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+45,Taqueria El Crucero,Waco,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+46,Cafe Homestead,Waco,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+47,Papa's Burgers,San Antonio,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+48,Whiskers Fish & Burgers,Dallas,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+49,Tiba Grill,Arlington,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+50,Quixote Bakery Cafe,Richland Hills,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+51,Coco Shrimp,Fort Worth,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+52,Yoyo's Hot Dog,Houston,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+53,Hoody's Sub Shop,Round Rock,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+54,Santorini Cafe,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+55,DEE DEE,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+56,The Shed Market,Abilene,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+57,Banh Mi Houston,Spring,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+58,E B Latin Bistro,Plano,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+59,Railway Cafe,Athens,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+60,Truth BBQ,Brenham,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+61,The Big Kahuna,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+62,Titas Taco House,Humble,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+63,Lula Jane's,Waco,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+64,Casa Jacaranda,Venus,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+65,Ephesus Mediterranean Grill,Dallas,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+66,Pollos Asados Los Norteños,San Antonio,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+67,Irie's Island Food,Port Aransas,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+68,The Flying Carpet,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+69,Crepe Crazy,Dripping Springs,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+70,Banh Mi Ngon,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+71,Comfort Cafe,Smithville,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+72,CorkScrew BBQ,Spring,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+73,Outlaw Kitchens,San Antonio,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+74,Spicy Mikes Bar-B-Q Haven,Amarillo,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+75,Local Poke,Houston,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+76,BackDraft Pizzeria,Bee Cave,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+77,Alamo Hot Dog,San Antonio,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+78,Sky Rocket Burger,Dallas,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+79,The B's Kitchen,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+80,Spice Station,Kingsville,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+81,Iron Fish Sushi & Grill,Pflugerville,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+82,Taco y Vino,Dallas,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+83,Not Just Q,Dallas,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+84,Steves' Market & Deli,Brownwood,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+85,Papi's Pies,Round Rock,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+86,Avesta Persian Grill,Houston,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+87,Lebowski's Grill,Austin,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+88,Tyler's Barbeque,Amarillo,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+89,Up Inspired Kitchen,Frisco,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+90,Tender Smokehouse,Celina,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+91,Sharks Burger,Leander,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+92,Eggsquisite Cafe,Allen,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+93,5 Ate Cafe,Spring,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+94,Sushi Kadan,Carrollton,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+95,Nyam Nyam Cafe,Cypress,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+96,Sikhay Thai Lao Cuisine,Fort Worth,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+97,The Red Vault Bistro,Flatonia,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+98,Okome Don,Houston,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+99,La Cocina de Roberto,The Woodlands,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
+100,Arepitas,Harker Heights,TX,,,,Yelp Top 100 Places to Eat in Texas 2019,https://blog.yelp.com/2019/03/top-100-places-to-eat-in-texas-according-to-yelp,contact_needs_verification
