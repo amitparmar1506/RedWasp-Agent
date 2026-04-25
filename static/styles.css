@@ -203,7 +203,8 @@ h1 {
   border-top: 1px solid var(--border);
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 10px;
+  gap: 8px;
+  align-items: end;
   padding: 12px;
 }
 
@@ -217,20 +218,64 @@ textarea {
   max-height: 110px;
 }
 
-button#sendButton {
-  border: 0;
-  border-radius: 12px;
-  min-width: 78px;
-  padding: 10px 14px;
-  color: white;
-  font-weight: 700;
-  background: linear-gradient(120deg, var(--accent), #ff7a2d);
-  cursor: pointer;
+.composer-actions {
+  display: flex;
+  gap: 8px;
 }
 
-button#sendButton:disabled {
+.icon-button {
+  border: 0;
+  border-radius: 12px;
+  width: 46px;
+  height: 46px;
+  display: inline-grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
+}
+
+.icon-button svg {
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.icon-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 14px rgba(31, 26, 23, 0.14);
+}
+
+.send-button {
+  background: linear-gradient(120deg, var(--accent), #ff7a2d);
+}
+
+.voice-button {
+  background: var(--accent-2);
+}
+
+.voice-button.is-listening {
+  background: #1f1a17;
+  box-shadow: 0 0 0 4px rgba(189, 58, 0, 0.18);
+}
+
+.icon-button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+@media (max-width: 420px) {
+  .composer {
+    grid-template-columns: 1fr;
+  }
+
+  .composer-actions {
+    justify-content: flex-end;
+  }
 }
 
 @keyframes pop-in {

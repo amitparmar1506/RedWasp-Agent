@@ -42,7 +42,22 @@
 
           <form id="chatForm" class="composer">
             <textarea id="messageInput" rows="2" placeholder="Ask about menus, reservations, hours, brunch, events..."></textarea>
-            <button id="sendButton" type="submit">Send</button>
+            <div class="composer-actions">
+              <button id="voiceButton" class="icon-button voice-button" type="button" aria-label="Use voice input" title="Use voice input">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v5a3 3 0 0 0 3 3Z" />
+                  <path d="M19 11a7 7 0 0 1-14 0" />
+                  <path d="M12 18v3" />
+                  <path d="M8 21h8" />
+                </svg>
+              </button>
+              <button id="sendButton" class="icon-button send-button" type="submit" aria-label="Send message" title="Send message">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="m22 2-7 20-4-9-9-4Z" />
+                  <path d="M22 2 11 13" />
+                </svg>
+              </button>
+            </div>
           </form>
         </section>
       </section>

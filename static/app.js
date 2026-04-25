@@ -2,9 +2,15 @@ const chatLog = document.getElementById("chatLog");
 const chatForm = document.getElementById("chatForm");
 const messageInput = document.getElementById("messageInput");
 const sendButton = document.getElementById("sendButton");
+const voiceButton = document.getElementById("voiceButton");
 const providerChip = document.getElementById("providerChip");
 const latencyChip = document.getElementById("latencyChip");
 const CLIENT_ID_STORAGE_KEY = "mitex_client_id";
+const SpeechRecognition =
+  window.SpeechRecognition || window.webkitSpeechRecognition || null;
+
+let recognition = null;
+let isListening = false;
 
 function getOrCreateClientId() {
   const existing = localStorage.getItem(CLIENT_ID_STORAGE_KEY);
@@ -56,6 +62,7 @@ async function refreshStatus() {
 async function sendMessage(message) {
   appendMessage("user", message);
   sendButton.disabled = true;
+  voiceButton.disabled = true;
 
   try {
     const response = await fetch("/chat", {
@@ -74,7 +81,73 @@ async function sendMessage(message) {
     appendMessage("bot", "Request failed. Please try again.", "network_error");
   } finally {
     sendButton.disabled = false;
+    voiceButton.disabled = !SpeechRecognition;
   }
+}
+
+function setVoiceListening(nextState) {
+  isListening = nextState;
+  voiceButton.classList.toggle("is-listening", isListening);
+  voiceButton.setAttribute(
+    "aria-label",
+    isListening ? "Stop voice input" : "Use voice input"
+  );
+  voiceButton.title = isListening ? "Stop voice input" : "Use voice input";
+}
+
+function appendTranscript(transcript) {
+  const currentValue = messageInput.value.trim();
+  messageInput.value = currentValue ? `${currentValue} ${transcript}` : transcript;
+  messageInput.focus();
+}
+
+function setupVoiceInput() {
+  if (!SpeechRecognition) {
+    voiceButton.disabled = true;
+    voiceButton.title = "Voice input is not supported in this browser";
+    return;
+  }
+
+  recognition = new SpeechRecognition();
+  recognition.lang = "en-US";
+  recognition.interimResults = true;
+  recognition.continuous = false;
+
+  recognition.addEventListener("start", () => {
+    setVoiceListening(true);
+  });
+
+  recognition.addEventListener("end", () => {
+    setVoiceListening(false);
+  });
+
+  recognition.addEventListener("error", () => {
+    setVoiceListening(false);
+  });
+
+  recognition.addEventListener("result", (event) => {
+    let finalTranscript = "";
+
+    for (let index = event.resultIndex; index < event.results.length; index += 1) {
+      const result = event.results[index];
+      if (result.isFinal) {
+        finalTranscript += result[0].transcript;
+      }
+    }
+
+    if (finalTranscript.trim()) {
+      appendTranscript(finalTranscript.trim());
+    }
+  });
+
+  voiceButton.addEventListener("click", () => {
+    if (isListening) {
+      recognition.stop();
+      return;
+    }
+
+    recognition.start();
+  });
 }
 
 chatForm.addEventListener("submit", async (event) => {
@@ -96,6 +169,8 @@ document.querySelectorAll(".mission").forEach((button) => {
     }
   });
 });
+
+setupVoiceInput();
 
 appendMessage(
   "bot",
