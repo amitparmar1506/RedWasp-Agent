@@ -1,0 +1,317 @@
+{
+  "business_name": "Little Red Wasp Kitchen + Bar",
+  "tagline": "Straightforward food, lots of beer, and a full bar in downtown Fort Worth.",
+  "website": "https://littleredwasp.com/",
+  "address": "808 Main Street, Fort Worth, Texas 76102",
+  "phone": "817-877-3111",
+  "email": "jason@littleredwasp.com",
+  "reservation_message": "For reservations, please call 817-877-3111 or use the Reservations link on the website.",
+  "reservation_url": "https://littleredwasp.com/reservations/",
+  "delivery": {
+    "provider": "Favor",
+    "url": "https://www.favordelivery.com/order-delivery/little-red-wasp-2793?utm_medium=partner_link&utm_source=2793",
+    "answer": "Delivery is available through Favor from the Delivery link on the Little Red Wasp website."
+  },
+  "hours": {
+    "monday": "11am - 9pm",
+    "tuesday": "11am - 9pm",
+    "wednesday": "11am - 9pm",
+    "thursday": "11am - 9pm",
+    "friday": "11am - 10pm",
+    "saturday": "10am - 10pm",
+    "sunday": "10am - 8pm"
+  },
+  "brunch": {
+    "days": "Saturday and Sunday",
+    "details": "Brunch is served on Saturday and Sunday. The restaurant opens at 10am on both days.",
+    "popular_items": [
+      "Breakfast Burger",
+      "Green Eggs + Ham",
+      "French Toast",
+      "Migas",
+      "Chicken Biscuit",
+      "Avocado Toast",
+      "Breakfast Burrito",
+      "Eggs Benedict"
+    ],
+    "menu_url": "https://littleredwasp.com/wp-content/MENUS/LRW-BRUNCH.pdf"
+  },
+  "happy_hour": {
+    "time": "4pm - 6pm daily",
+    "details": "$5 local drafts, $6 cocktails, $7 wine, and $10 happy-hour bites. The site also mentions a $10 local flight with four 8 oz pours.",
+    "items": {
+      "drafts": "Rotating local draft selection",
+      "cocktails": [
+        "Mojito",
+        "Cosmopolitan",
+        "Gimlet",
+        "Old Fashioned",
+        "Margarita"
+      ],
+      "wines": [
+        "Segura Viudas Cava",
+        "Chardonnay",
+        "Cabernet",
+        "Malbec"
+      ],
+      "bites": [
+        "Deviled Eggs",
+        "Ranch Dip",
+        "Pimento Dip",
+        "LRW Meatballs"
+      ]
+    },
+    "menu_url": "https://littleredwasp.com/wp-content/MENUS/LRW-HH.pdf"
+  },
+  "menus": {
+    "main": {
+      "label": "Lunch + Dinner Menu",
+      "url": "https://littleredwasp.com/wp-content/MENUS/LRW-DINNER.pdf",
+      "sections": [
+        "Starters",
+        "Soups + Salads",
+        "Knife + Fork Sandwiches",
+        "Sides",
+        "Nightly Features",
+        "Desserts"
+      ],
+      "popular_items": [
+        "Chip + Dip",
+        "Pimento Cheese + Crackers",
+        "Brisket Potstickers",
+        "Deviled Eggs",
+        "Whipped Ricotta",
+        "Chicken Wings",
+        "Cheeseburger",
+        "Reuben",
+        "Crispy Chicken",
+        "Roasted Portobello",
+        "Halibut Fish + Chips",
+        "Chicken Fried Chicken",
+        "Chicken Fried Beef Tenderloin",
+        "Pork Shank Carnitas",
+        "Spaghetti + Meatballs",
+        "Ocean Trout",
+        "Scallops + Grits",
+        "Steak Frites",
+        "Cheesecake",
+        "Chocolate Bread Pudding",
+        "Doughnut Holes"
+      ]
+    },
+    "cocktails": {
+      "label": "Cocktail Menu",
+      "url": "https://littleredwasp.com/wp-content/MENUS/LRW-COCKTAILS.pdf",
+      "sections": [
+        "Specialty Cocktails",
+        "Mimosa + Flights",
+        "Mocktails"
+      ],
+      "popular_items": [
+        "Little Red Wasp",
+        "Blood Red Margarita",
+        "Mint Mocha Espresso Martini",
+        "Blackberry Glory",
+        "Date Night",
+        "Bitter Beauty",
+        "Kiwi Thyme",
+        "Hazy Apple",
+        "Campfire S'Mores",
+        "Cardigan Weather",
+        "The Spritzer",
+        "Good Morning, Sweet Papa",
+        "Raspberry Arnold Palmer",
+        "Strawberry Horchata",
+        "Season's Greetings"
+      ]
+    },
+    "kids": {
+      "label": "Kid's Menu",
+      "url": "https://littleredwasp.com/wp-content/MENUS/LRW-KIDS.pdf",
+      "sections": [
+        "Kid's Menu",
+        "Sides",
+        "Dessert"
+      ],
+      "popular_items": [
+        "Burger",
+        "Cheeseburger",
+        "Chicken Tenders",
+        "Mac + Cheese",
+        "Grilled Cheese",
+        "Pasta",
+        "Doughnut Holes",
+        "Vanilla Ice Cream"
+      ]
+    },
+    "beer_wine": {
+      "label": "Beer / Wine Menu",
+      "url": "https://littleredwasp.com/wp-content/MENUS/LRW-BEER.pdf",
+      "sections": [
+        "Texas Craft Beers",
+        "Bubbles",
+        "Chardonnay",
+        "More Whites",
+        "Cabernet Sauvignon",
+        "More Reds"
+      ],
+      "popular_items": [
+        "Austin Eastciders Blackberry Cider",
+        "Community Mosaic IPA",
+        "Deep Ellum Neato Bandito Mexican Lager",
+        "Four Corners Local Buzz Honey-Rye Ale",
+        "Hop & Sting Northeast Texas IPA",
+        "Lakewood Temptress Imperial Milk Stout",
+        "Martin House Salty Lady Gose",
+        "Rahr Texas Red Amber",
+        "Segura Viudas Cava",
+        "Stags' Leap Chardonnay",
+        "Kim Crawford Sauvignon Blanc",
+        "Sean Minor Cabernet",
+        "Alamos Malbec",
+        "The Prisoner Red Blend"
+      ]
+    }
+  },
+  "services": [
+    "dine-in",
+    "delivery through Favor",
+    "events",
+    "reservations",
+    "weekend brunch",
+    "full bar",
+    "kids menu",
+    "newsletter signup",
+    "careers"
+  ],
+  "events": [
+    {
+      "name": "Happy Hour",
+      "details": "Available 7 days a week from 4pm to 6pm with local drafts, cocktails, wine, bites, and a local flight."
+    },
+    {
+      "name": "Buzz for a Cause",
+      "details": "A Thursday event series for local businesses and charities, hosted from 5pm to 7pm in the bar and cocktail area. Capacity is about 50 to 60 people. Two guest bartenders are recommended, light bites are provided, and charity events may use donation buckets.",
+      "contact": "Contact Jason at 817-877-3111 or jason@littleredwasp.com to ask about scheduling."
+    }
+  ],
+  "careers": {
+    "answer": "The Careers page offers English and Spanish application downloads and a form to contact Little Red Wasp or send an application.",
+    "url": "https://littleredwasp.com/careers/"
+  },
+  "alter_egos": [
+    {
+      "name": "Grace Fort Worth",
+      "url": "https://gracefortworth.com/"
+    },
+    {
+      "name": "61 Osteria",
+      "url": "https://61osteria.com/"
+    }
+  ],
+  "press_highlights": [
+    "FWTX.COM covered a cookbook-related one-night menu in April 2025.",
+    "Little Red Wasp has been mentioned in Fort Worth brunch, happy hour, chicken-fried, and downtown dining coverage.",
+    "Press mentions include FWTX.COM, CultureMap Fort Worth, The Daily Meal, Fort Worth Star-Telegram, Fort Worth Weekly, DFW.com, and Eater."
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/LittleRedWasp/",
+    "instagram": "https://www.instagram.com/littleredwasp/"
+  },
+  "data_sources": [
+    "https://littleredwasp.com/",
+    "https://littleredwasp.com/menu-wine-list/",
+    "https://littleredwasp.com/events/",
+    "https://littleredwasp.com/category/events/",
+    "https://littleredwasp.com/7-days-a-week-happy-hour/",
+    "https://littleredwasp.com/buzz-for-a-cause/",
+    "https://littleredwasp.com/press/",
+    "https://littleredwasp.com/careers/",
+    "https://littleredwasp.com/contact/",
+    "https://littleredwasp.com/reservations/",
+    "https://littleredwasp.com/wp-content/MENUS/LRW-DINNER.pdf",
+    "https://littleredwasp.com/wp-content/MENUS/LRW-COCKTAILS.pdf",
+    "https://littleredwasp.com/wp-content/MENUS/LRW-HH.pdf",
+    "https://littleredwasp.com/wp-content/MENUS/LRW-BRUNCH.pdf",
+    "https://littleredwasp.com/wp-content/MENUS/LRW-KIDS.pdf",
+    "https://littleredwasp.com/wp-content/MENUS/LRW-BEER.pdf"
+  ],
+  "faqs": [
+    {
+      "question": "Where are you located?",
+      "answer": "Little Red Wasp Kitchen + Bar is at 808 Main Street, Fort Worth, Texas 76102."
+    },
+    {
+      "question": "What is your phone number?",
+      "answer": "You can call Little Red Wasp Kitchen + Bar at 817-877-3111."
+    },
+    {
+      "question": "How do I make a reservation?",
+      "answer": "For reservations, please call 817-877-3111 or use the Reservations link on the website."
+    },
+    {
+      "question": "What are your hours?",
+      "answer": "Hours are Monday through Thursday 11am - 9pm, Friday 11am - 10pm, Saturday 10am - 10pm, and Sunday 10am - 8pm."
+    },
+    {
+      "question": "Do you serve brunch?",
+      "answer": "Yes. Brunch is served on Saturday and Sunday, when the restaurant opens at 10am."
+    },
+    {
+      "question": "What is on the brunch menu?",
+      "answer": "Brunch options include Breakfast Burger, Green Eggs + Ham, French Toast, Migas, Chicken Biscuit, Avocado Toast, Breakfast Burrito, and Eggs Benedict."
+    },
+    {
+      "question": "When is happy hour?",
+      "answer": "Happy hour is daily from 4pm to 6pm with local drafts, cocktails, wine, happy-hour bites, and a local flight."
+    },
+    {
+      "question": "What is on the happy hour menu?",
+      "answer": "Happy hour includes rotating local drafts, cocktails such as Mojito, Cosmopolitan, Gimlet, Old Fashioned, and Margarita, select wines, and bites such as Deviled Eggs, Ranch Dip, Pimento Dip, and LRW Meatballs."
+    },
+    {
+      "question": "Do you have a full bar?",
+      "answer": "Yes. Little Red Wasp Kitchen + Bar offers lots of beer, specialty cocktails, wine, mocktails, and a full bar."
+    },
+    {
+      "question": "Do you have a kids menu?",
+      "answer": "Yes. The kid's menu includes items such as Burger, Cheeseburger, Chicken Tenders, Mac + Cheese, Grilled Cheese, Pasta, Doughnut Holes, and Vanilla Ice Cream."
+    },
+    {
+      "question": "Do you have beer and wine?",
+      "answer": "Yes. The beer and wine menu includes Texas craft beers plus bubbles, chardonnay, more whites, cabernet sauvignon, and more reds."
+    },
+    {
+      "question": "Do you offer delivery?",
+      "answer": "Yes. Delivery is available through Favor from the Delivery link on the Little Red Wasp website."
+    },
+    {
+      "question": "Do you host events?",
+      "answer": "Yes. Little Red Wasp Kitchen + Bar hosts events including happy hour and the Thursday Buzz for a Cause series."
+    },
+    {
+      "question": "What is Buzz for a Cause?",
+      "answer": "Buzz for a Cause is a Thursday event series for local businesses and charities from 5pm to 7pm in the bar and cocktail area. Capacity is about 50 to 60 people, two guest bartenders are recommended, and Little Red Wasp provides light bites."
+    },
+    {
+      "question": "Who do I contact for Buzz for a Cause?",
+      "answer": "For more details or to schedule Buzz for a Cause, contact Jason at 817-877-3111 or jason@littleredwasp.com."
+    },
+    {
+      "question": "How do I apply for a job?",
+      "answer": "Use the Careers page to download an English or Spanish application and submit the contact/application form."
+    },
+    {
+      "question": "What are your other restaurants?",
+      "answer": "The website lists Grace Fort Worth and 61 Osteria as alter-ego restaurants."
+    },
+    {
+      "question": "How do I sign up for the newsletter?",
+      "answer": "Use the newsletter signup form on the Little Red Wasp website."
+    },
+    {
+      "question": "Where can I find the menu?",
+      "answer": "The website's Food & Wine page links to the Lunch + Dinner, Cocktail, Happy Hour, Brunch, Kid's, and Beer / Wine menus."
+    }
+  ]
+}

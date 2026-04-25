@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Red Wasp AI Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">MITEX AI Assistant</p>
+          <h1>Little Red Wasp Assistant</h1>
+        </div>
+        <div class="chips">
+          <span id="providerChip" class="chip">Provider: loading...</span>
+          <span id="latencyChip" class="chip">Avg latency: --</span>
+        </div>
+      </header>
+
+      <section class="panel grid-layout">
+        <aside class="sidebar">
+          <h2>Quick Questions</h2>
+          <button class="mission" data-prompt="Compare all menus and recommend best options for family dinner.">Compare menus</button>
+          <button class="mission" data-prompt="Plan a full weekend itinerary with brunch, happy hour, and dinner.">Weekend itinerary</button>
+          <button class="mission" data-prompt="Give me a step by step event planning roadmap for Buzz for a Cause.">Event roadmap</button>
+          <button class="mission" data-prompt="What are your hours and reservation details?">Hours + reservation</button>
+        </aside>
+
+        <section class="chat-card">
+          <div id="chatLog" class="chat-log" aria-live="polite"></div>
+
+          <form id="chatForm" class="composer">
+            <textarea id="messageInput" rows="2" placeholder="Ask about menus, reservations, hours, brunch, events..."></textarea>
+            <button id="sendButton" type="submit">Send</button>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>
