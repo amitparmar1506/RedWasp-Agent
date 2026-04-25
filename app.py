@@ -1,6 +1,8 @@
 import json
 import os
 import re
+import secrets
+import shutil
 import time
 from collections import deque
 from datetime import datetime, timezone
@@ -14,6 +16,7 @@ from flask import Flask, jsonify, render_template, request as flask_request
 BASE_DIR = Path(__file__).resolve().parent
 CONFIG_PATH = BASE_DIR / "config.json"
 ENV_PATH = BASE_DIR / ".env"
+CONFIG_LOCK = Lock()
 
 AI_STATUS_LOCK = Lock()
 LAST_AI_PROVIDER = ""
@@ -66,6 +69,29 @@ def load_config(config_path: Path) -> Dict[str, Any]:
 
     with config_path.open("r", encoding="utf-8") as file_obj:
         return json.load(file_obj)
+
+
+def save_config(config_path: Path, data: Dict[str, Any]) -> None:
+    backup_path = config_path.with_suffix(".backup.json")
+    if config_path.exists():
+        shutil.copyfile(config_path, backup_path)
+
+    rendered = json.dumps(data, indent=2, ensure_ascii=False)
+    config_path.write_text(rendered + "\n", encoding="utf-8")
+
+
+def admin_enabled() -> bool:
+    return bool(os.getenv("ADMIN_TOKEN", "").strip())
+
+
+def admin_authorized() -> bool:
+    expected = os.getenv("ADMIN_TOKEN", "").strip()
+    supplied = (
+        flask_request.headers.get("X-Admin-Token")
+        or flask_request.args.get("token")
+        or ""
+    ).strip()
+    return bool(expected and supplied and secrets.compare_digest(expected, supplied))
 
 
 def normalize_text(text: str) -> str:
@@ -376,6 +402,7 @@ class ChatEngine:
         reservation = self.config.get("reservation_message", "Call the restaurant for reservations.")
         reservation_url = self.config.get("reservation_url", "")
         happy_hour = self.config.get("happy_hour", {}).get("details", "")
+        events = self.config.get("events", [])
 
         lines = [
             f"Business: {name}",
@@ -387,7 +414,24 @@ class ChatEngine:
             lines.append(f"Reservation URL: {reservation_url}")
         if happy_hour:
             lines.append(f"Happy hour: {happy_hour}")
+        if isinstance(events, list) and events:
+            event_lines = []
+            for item in events[:6]:
+                if not isinstance(item, dict):
+                    continue
+                name = item.get("name")
+                details = item.get("details")
+                if name and details:
+                    event_lines.append(f"- {name}: {details}")
+            if event_lines:
+                lines.append("Events:\n" + "\n".join(event_lines))
         return "\n".join(lines)
+
+    def update_config(self, config: Dict[str, Any]) -> None:
+        self.config = config
+        with self._cache_lock:
+            self._cache.clear()
+            self._cache_order.clear()
 
     def _build_grounded_prompt(
         self,
@@ -750,6 +794,49 @@ app = Flask(__name__, template_folder="templates", static_folder="static")
 @app.get("/")
 def index() -> str:
     return render_template("index.html")
+
+
+@app.get("/admin")
+def admin() -> Any:
+    if not admin_enabled():
+        return "Admin is not enabled. Set ADMIN_TOKEN in environment variables.", 404
+    return render_template("admin.html")
+
+
+@app.get("/admin/config")
+def admin_config() -> Any:
+    if not admin_authorized():
+        return jsonify({"error": "Unauthorized"}), 401
+
+    with CONFIG_LOCK:
+        return jsonify(CONFIG)
+
+
+@app.put("/admin/config")
+def update_admin_config() -> Any:
+    global CONFIG, ENGINE
+
+    if not admin_authorized():
+        return jsonify({"error": "Unauthorized"}), 401
+
+    payload = flask_request.get_json(silent=True)
+    if not isinstance(payload, dict):
+        return jsonify({"error": "Config must be a JSON object."}), 400
+
+    required_fields = ("business_name", "hours", "menus", "faqs")
+    missing = [field for field in required_fields if field not in payload]
+    if missing:
+        return jsonify({"error": f"Missing required field(s): {', '.join(missing)}"}), 400
+
+    try:
+        with CONFIG_LOCK:
+            save_config(CONFIG_PATH, payload)
+            CONFIG = payload
+            ENGINE.update_config(CONFIG)
+    except (OSError, TypeError, ValueError) as exc:
+        return jsonify({"error": f"Unable to save config: {exc}"}), 500
+
+    return jsonify({"ok": True, "message": "Knowledge base updated and reloaded."})
 
 
 @app.get("/status")

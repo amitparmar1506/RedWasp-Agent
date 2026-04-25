@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Red Wasp Knowledge Admin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin.css') }}" />
+  </head>
+  <body>
+    <main class="admin-shell">
+      <header class="admin-header">
+        <div>
+          <p>MITEX Knowledge Admin</p>
+          <h1>Little Red Wasp Content</h1>
+        </div>
+        <div class="actions">
+          <input id="tokenInput" type="password" placeholder="Admin token" autocomplete="current-password" />
+          <button id="loadButton" type="button">Load</button>
+          <button id="saveButton" type="button">Save</button>
+        </div>
+      </header>
+
+      <section class="status-panel">
+        <span id="statusText">Enter the admin token, then load the knowledge base.</span>
+      </section>
+
+      <section class="editor-grid">
+        <aside class="guide">
+          <h2>Update Areas</h2>
+          <ul>
+            <li>Hours: edit the <code>hours</code> object.</li>
+            <li>Events: edit the <code>events</code> array.</li>
+            <li>FAQs: add approved Q&A pairs in <code>faqs</code>.</li>
+            <li>Menus: update URLs and popular items in <code>menus</code>.</li>
+          </ul>
+        </aside>
+        <textarea id="configEditor" spellcheck="false" placeholder="Knowledge JSON will appear here."></textarea>
+      </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='admin.js') }}"></script>
+  </body>
+</html>
